@@ -19,7 +19,15 @@
       "Bash(powershell -ExecutionPolicy Bypass -Command \"@{model=@{display_name=''Claude Opus 4.5''};cwd=''C:\\\\ProgramData\\\\Works\\\\AIToolTest\\\\TestProject'';version=''2.1.12'';context_window=@{remaining_percentage=95;used_percentage=5}} | ConvertTo-Json -Compress | Out-File ''C:\\\\Users\\\\9144\\\\.claude\\\\test-input.json'' -Encoding ASCII -NoNewline\")",
       "Bash(powershell -ExecutionPolicy Bypass -Command \"Get-Content ''C:\\\\Users\\\\9144\\\\.claude\\\\test-input.json'' -Raw | powershell -ExecutionPolicy Bypass -File C:\\\\Users\\\\9144\\\\.claude\\\\statusline-command.ps1\")",
       "Bash(del \"C:\\\\Users\\\\9144\\\\.claude\\\\test-input.json\" \"C:\\\\Users\\\\9144\\\\.claude\\\\statusline-debug.txt\")",
-      "Bash(powershell -Command:*)"
+      "Bash(powershell -Command:*)",
+      "Bash(dir /b \"C:\\\\ProgramData\\\\Works\\\\AIToolTest\\\\TestProject\")",
+      "Bash(echo:*)",
+      "Bash(claude mcp list:*)",
+      "WebSearch",
+      "Skill(frontend-design)",
+      "Bash(npx playwright install:*)",
+      "Bash(npx playwright test:*)",
+      "Bash(more:*)"
     ]
   },
   "statusLine": {

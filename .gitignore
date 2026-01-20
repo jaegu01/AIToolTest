@@ -18,6 +18,10 @@ out/
 # Test coverage
 coverage/
 
+# Playwright
+playwright-report/
+test-results/
+
 # Cache
 .cache/
 .turbo/
