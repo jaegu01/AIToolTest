@@ -4,6 +4,9 @@
 .env.local
 !.env.example
 
+# local settings
+setting.local.json
+
 # Dependencies
 node_modules/
 .pnpm-store/
