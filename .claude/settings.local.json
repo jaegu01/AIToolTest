@@ -28,7 +28,14 @@
       "Bash(npx playwright install:*)",
       "Bash(npx playwright test:*)",
       "Bash(more:*)",
-      "Skill(log-session)"
+      "Skill(log-session)",
+      "Bash(gh pr create:*)",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "WebFetch(domain:api.github.com)",
+      "WebFetch(domain:github.com)",
+      "mcp__plugin_playwright_playwright__browser_snapshot",
+      "Bash(npx -y @octokit/cli pr view:*)",
+      "Bash(choco install:*)"
     ]
   },
   "statusLine": {
