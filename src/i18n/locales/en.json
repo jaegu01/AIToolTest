@@ -1,0 +1,111 @@
+{
+  "common": {
+    "appName": "GlassCalc Pro",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "reset": "Reset",
+    "copy": "Copy",
+    "copied": "Copied",
+    "settings": "Settings",
+    "theme": "Theme",
+    "language": "Language",
+    "sound": "Sound",
+    "haptic": "Haptic"
+  },
+  "home": {
+    "title": "Choose a Calculator",
+    "subtitle": "Make complex calculations easy with various calculators",
+    "searchPlaceholder": "Search calculators...",
+    "commandPalette": "Press Ctrl+K for quick search"
+  },
+  "calculators": {
+    "engineering": {
+      "name": "Engineering Calculator",
+      "description": "Trigonometry, logarithms, exponentials"
+    },
+    "financial": {
+      "name": "Financial Calculator",
+      "description": "Loans, compound interest, ROI"
+    },
+    "graph": {
+      "name": "Graph Calculator",
+      "description": "Function graph visualization"
+    },
+    "unit": {
+      "name": "Unit Converter",
+      "description": "Length, weight, temperature, pressure"
+    },
+    "programmer": {
+      "name": "Programmer Calculator",
+      "description": "Base conversion, bit operations"
+    },
+    "statistics": {
+      "name": "Statistics Calculator",
+      "description": "Mean, std deviation, regression"
+    },
+    "datetime": {
+      "name": "Date/Time Calculator",
+      "description": "D-Day, age, timezone"
+    },
+    "matrix": {
+      "name": "Matrix Calculator",
+      "description": "Matrix operations, inverse, eigenvalues"
+    },
+    "physics": {
+      "name": "Physics Calculator",
+      "description": "Motion, force, energy, electricity"
+    },
+    "chemistry": {
+      "name": "Chemistry Calculator",
+      "description": "Molecular weight, moles, pH"
+    },
+    "health": {
+      "name": "Health Calculator",
+      "description": "BMI, BMR, heart rate zones"
+    },
+    "color": {
+      "name": "Color Calculator",
+      "description": "HEX, RGB, HSL conversion"
+    }
+  },
+  "calculator": {
+    "result": "Result",
+    "history": "History",
+    "clearHistory": "Clear History",
+    "expression": "Expression",
+    "variables": "Variables",
+    "functions": "Functions",
+    "constants": "Constants",
+    "memory": "Memory",
+    "degree": "DEG",
+    "radian": "RAD",
+    "clear": "C",
+    "allClear": "AC",
+    "backspace": "←",
+    "equals": "=",
+    "error": {
+      "divisionByZero": "Cannot divide by zero",
+      "invalidExpression": "Invalid expression",
+      "overflow": "Number too large",
+      "undefined": "Undefined result"
+    }
+  },
+  "themes": {
+    "aurora": "Aurora",
+    "sunset": "Sunset",
+    "ocean": "Ocean",
+    "forest": "Forest",
+    "midnight": "Midnight",
+    "cherry": "Cherry Blossom"
+  },
+  "sound": {
+    "mechanical": "Mechanical",
+    "8bit": "8-bit",
+    "minimal": "Minimal",
+    "nature": "Nature"
+  }
+}

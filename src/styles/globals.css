@@ -1,0 +1,204 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+    --card: 222 47% 15%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 47% 13%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 222 47% 11%;
+    --secondary: 217 33% 17%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 217 33% 22%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217 33% 22%;
+    --input: 217 33% 22%;
+    --ring: 217 91% 60%;
+    --radius: 0.75rem;
+  }
+
+  /* Aurora Theme */
+  [data-theme="aurora"] {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+    --primary: 280 100% 70%;
+    --accent: 200 100% 60%;
+  }
+
+  /* Sunset Theme */
+  [data-theme="sunset"] {
+    --background: 20 30% 12%;
+    --foreground: 40 100% 95%;
+    --primary: 25 100% 60%;
+    --accent: 340 80% 55%;
+  }
+
+  /* Ocean Theme */
+  [data-theme="ocean"] {
+    --background: 200 50% 10%;
+    --foreground: 180 30% 95%;
+    --primary: 190 90% 50%;
+    --accent: 170 80% 40%;
+  }
+
+  /* Forest Theme */
+  [data-theme="forest"] {
+    --background: 150 30% 10%;
+    --foreground: 120 20% 95%;
+    --primary: 140 60% 45%;
+    --accent: 80 50% 50%;
+  }
+
+  /* Midnight Theme */
+  [data-theme="midnight"] {
+    --background: 240 30% 8%;
+    --foreground: 220 20% 95%;
+    --primary: 260 70% 60%;
+    --accent: 220 80% 50%;
+  }
+
+  /* Cherry Theme */
+  [data-theme="cherry"] {
+    --background: 340 25% 12%;
+    --foreground: 340 20% 95%;
+    --primary: 340 80% 60%;
+    --accent: 320 70% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Glassmorphism Base */
+  .glass {
+    @apply backdrop-blur-md bg-white/10 border border-white/20 rounded-xl;
+  }
+
+  .glass-light {
+    @apply backdrop-blur-sm bg-white/5 border border-white/10 rounded-lg;
+  }
+
+  .glass-heavy {
+    @apply backdrop-blur-xl bg-white/20 border border-white/30 rounded-2xl;
+  }
+
+  /* Calculator Button Styles */
+  .calc-btn {
+    @apply glass flex items-center justify-center
+           text-lg font-medium transition-all duration-200
+           hover:bg-white/20 hover:scale-105
+           active:scale-95 active:bg-white/25
+           focus:outline-none focus:ring-2 focus:ring-primary/50;
+  }
+
+  .calc-btn-primary {
+    @apply calc-btn bg-primary/30 hover:bg-primary/40 text-primary-foreground;
+  }
+
+  .calc-btn-operator {
+    @apply calc-btn bg-accent/30 hover:bg-accent/40;
+  }
+
+  .calc-btn-number {
+    @apply calc-btn hover:bg-white/15;
+  }
+
+  /* Display Styles */
+  .calc-display {
+    @apply glass-heavy p-4 text-right font-mono;
+  }
+
+  /* Glow Effects */
+  .glow {
+    box-shadow: 0 0 20px rgba(var(--primary), 0.3),
+                0 0 40px rgba(var(--primary), 0.1);
+  }
+
+  .glow-accent {
+    box-shadow: 0 0 20px rgba(var(--accent), 0.3),
+                0 0 40px rgba(var(--accent), 0.1);
+  }
+
+  /* Scrollbar Styles */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-white/20 rounded-full hover:bg-white/30;
+  }
+
+  /* Number Animation */
+  .number-enter {
+    animation: numberRoll 0.3s ease-out;
+  }
+
+  /* Error Shake */
+  .error-shake {
+    animation: shake 0.5s ease-in-out;
+  }
+}
+
+@layer utilities {
+  /* Text Gradient */
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;
+  }
+
+  /* Background Gradient */
+  .bg-gradient-radial {
+    background: radial-gradient(circle at center, var(--tw-gradient-stops));
+  }
+
+  /* No Select */
+  .no-select {
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide Scrollbar */
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* KaTeX Overrides */
+.katex {
+  font-size: 1.1em !important;
+}
+
+.katex-display {
+  margin: 0.5em 0 !important;
+}

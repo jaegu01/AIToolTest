@@ -1,0 +1,111 @@
+{
+  "common": {
+    "appName": "GlassCalc Pro",
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "close": "閉じる",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "reset": "リセット",
+    "copy": "コピー",
+    "copied": "コピーしました",
+    "settings": "設定",
+    "theme": "テーマ",
+    "language": "言語",
+    "sound": "サウンド",
+    "haptic": "振動"
+  },
+  "home": {
+    "title": "電卓を選択",
+    "subtitle": "様々な電卓で複雑な計算を簡単に",
+    "searchPlaceholder": "電卓を検索...",
+    "commandPalette": "Ctrl+Kでクイック検索"
+  },
+  "calculators": {
+    "engineering": {
+      "name": "関数電卓",
+      "description": "三角関数、対数、指数演算"
+    },
+    "financial": {
+      "name": "金融電卓",
+      "description": "ローン、複利、投資収益率"
+    },
+    "graph": {
+      "name": "グラフ電卓",
+      "description": "関数グラフの可視化"
+    },
+    "unit": {
+      "name": "単位変換器",
+      "description": "長さ、重さ、温度、圧力"
+    },
+    "programmer": {
+      "name": "プログラマ電卓",
+      "description": "基数変換、ビット演算"
+    },
+    "statistics": {
+      "name": "統計電卓",
+      "description": "平均、標準偏差、回帰分析"
+    },
+    "datetime": {
+      "name": "日時電卓",
+      "description": "日数計算、年齢、タイムゾーン"
+    },
+    "matrix": {
+      "name": "行列電卓",
+      "description": "行列演算、逆行列、固有値"
+    },
+    "physics": {
+      "name": "物理電卓",
+      "description": "運動、力、エネルギー、電気"
+    },
+    "chemistry": {
+      "name": "化学電卓",
+      "description": "分子量、モル、pH、反応式"
+    },
+    "health": {
+      "name": "健康電卓",
+      "description": "BMI、基礎代謝量、心拍数"
+    },
+    "color": {
+      "name": "カラー電卓",
+      "description": "HEX、RGB、HSL変換"
+    }
+  },
+  "calculator": {
+    "result": "結果",
+    "history": "履歴",
+    "clearHistory": "履歴を削除",
+    "expression": "数式",
+    "variables": "変数",
+    "functions": "関数",
+    "constants": "定数",
+    "memory": "メモリ",
+    "degree": "度",
+    "radian": "ラジアン",
+    "clear": "C",
+    "allClear": "AC",
+    "backspace": "←",
+    "equals": "=",
+    "error": {
+      "divisionByZero": "ゼロで除算できません",
+      "invalidExpression": "無効な数式です",
+      "overflow": "数値が大きすぎます",
+      "undefined": "未定義の結果"
+    }
+  },
+  "themes": {
+    "aurora": "オーロラ",
+    "sunset": "夕焼け",
+    "ocean": "海",
+    "forest": "森",
+    "midnight": "真夜中",
+    "cherry": "桜"
+  },
+  "sound": {
+    "mechanical": "メカニカル",
+    "8bit": "8ビット",
+    "minimal": "ミニマル",
+    "nature": "自然"
+  }
+}

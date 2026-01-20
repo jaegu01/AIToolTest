@@ -1,0 +1,111 @@
+{
+  "common": {
+    "appName": "GlassCalc Pro",
+    "loading": "加载中...",
+    "error": "发生错误",
+    "close": "关闭",
+    "save": "保存",
+    "cancel": "取消",
+    "confirm": "确认",
+    "reset": "重置",
+    "copy": "复制",
+    "copied": "已复制",
+    "settings": "设置",
+    "theme": "主题",
+    "language": "语言",
+    "sound": "声音",
+    "haptic": "振动"
+  },
+  "home": {
+    "title": "选择计算器",
+    "subtitle": "使用各种计算器轻松完成复杂计算",
+    "searchPlaceholder": "搜索计算器...",
+    "commandPalette": "按 Ctrl+K 快速搜索"
+  },
+  "calculators": {
+    "engineering": {
+      "name": "工程计算器",
+      "description": "三角函数、对数、指数运算"
+    },
+    "financial": {
+      "name": "金融计算器",
+      "description": "贷款、复利、投资回报率"
+    },
+    "graph": {
+      "name": "图形计算器",
+      "description": "函数图形可视化"
+    },
+    "unit": {
+      "name": "单位转换器",
+      "description": "长度、重量、温度、压力"
+    },
+    "programmer": {
+      "name": "程序员计算器",
+      "description": "进制转换、位运算"
+    },
+    "statistics": {
+      "name": "统计计算器",
+      "description": "平均值、标准差、回归分析"
+    },
+    "datetime": {
+      "name": "日期时间计算器",
+      "description": "倒计时、年龄、时区"
+    },
+    "matrix": {
+      "name": "矩阵计算器",
+      "description": "矩阵运算、逆矩阵、特征值"
+    },
+    "physics": {
+      "name": "物理计算器",
+      "description": "运动、力、能量、电学"
+    },
+    "chemistry": {
+      "name": "化学计算器",
+      "description": "分子量、摩尔、pH、反应式"
+    },
+    "health": {
+      "name": "健康计算器",
+      "description": "BMI、基础代谢率、心率区间"
+    },
+    "color": {
+      "name": "颜色计算器",
+      "description": "HEX、RGB、HSL 转换"
+    }
+  },
+  "calculator": {
+    "result": "结果",
+    "history": "历史",
+    "clearHistory": "清除历史",
+    "expression": "表达式",
+    "variables": "变量",
+    "functions": "函数",
+    "constants": "常数",
+    "memory": "内存",
+    "degree": "度",
+    "radian": "弧度",
+    "clear": "C",
+    "allClear": "AC",
+    "backspace": "←",
+    "equals": "=",
+    "error": {
+      "divisionByZero": "不能除以零",
+      "invalidExpression": "无效的表达式",
+      "overflow": "数字太大",
+      "undefined": "未定义的结果"
+    }
+  },
+  "themes": {
+    "aurora": "极光",
+    "sunset": "日落",
+    "ocean": "海洋",
+    "forest": "森林",
+    "midnight": "午夜",
+    "cherry": "樱花"
+  },
+  "sound": {
+    "mechanical": "机械",
+    "8bit": "8位",
+    "minimal": "极简",
+    "nature": "自然"
+  }
+}

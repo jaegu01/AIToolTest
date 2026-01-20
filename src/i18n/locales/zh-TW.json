@@ -1,0 +1,111 @@
+{
+  "common": {
+    "appName": "GlassCalc Pro",
+    "loading": "載入中...",
+    "error": "發生錯誤",
+    "close": "關閉",
+    "save": "儲存",
+    "cancel": "取消",
+    "confirm": "確認",
+    "reset": "重置",
+    "copy": "複製",
+    "copied": "已複製",
+    "settings": "設定",
+    "theme": "主題",
+    "language": "語言",
+    "sound": "聲音",
+    "haptic": "振動"
+  },
+  "home": {
+    "title": "選擇計算機",
+    "subtitle": "使用各種計算機輕鬆完成複雜計算",
+    "searchPlaceholder": "搜尋計算機...",
+    "commandPalette": "按 Ctrl+K 快速搜尋"
+  },
+  "calculators": {
+    "engineering": {
+      "name": "工程計算機",
+      "description": "三角函數、對數、指數運算"
+    },
+    "financial": {
+      "name": "金融計算機",
+      "description": "貸款、複利、投資報酬率"
+    },
+    "graph": {
+      "name": "圖形計算機",
+      "description": "函數圖形視覺化"
+    },
+    "unit": {
+      "name": "單位轉換器",
+      "description": "長度、重量、溫度、壓力"
+    },
+    "programmer": {
+      "name": "程式設計師計算機",
+      "description": "進位轉換、位元運算"
+    },
+    "statistics": {
+      "name": "統計計算機",
+      "description": "平均值、標準差、迴歸分析"
+    },
+    "datetime": {
+      "name": "日期時間計算機",
+      "description": "倒數計時、年齡、時區"
+    },
+    "matrix": {
+      "name": "矩陣計算機",
+      "description": "矩陣運算、逆矩陣、特徵值"
+    },
+    "physics": {
+      "name": "物理計算機",
+      "description": "運動、力、能量、電學"
+    },
+    "chemistry": {
+      "name": "化學計算機",
+      "description": "分子量、莫耳、pH、反應式"
+    },
+    "health": {
+      "name": "健康計算機",
+      "description": "BMI、基礎代謝率、心率區間"
+    },
+    "color": {
+      "name": "顏色計算機",
+      "description": "HEX、RGB、HSL 轉換"
+    }
+  },
+  "calculator": {
+    "result": "結果",
+    "history": "歷史",
+    "clearHistory": "清除歷史",
+    "expression": "運算式",
+    "variables": "變數",
+    "functions": "函數",
+    "constants": "常數",
+    "memory": "記憶體",
+    "degree": "度",
+    "radian": "弧度",
+    "clear": "C",
+    "allClear": "AC",
+    "backspace": "←",
+    "equals": "=",
+    "error": {
+      "divisionByZero": "不能除以零",
+      "invalidExpression": "無效的運算式",
+      "overflow": "數字太大",
+      "undefined": "未定義的結果"
+    }
+  },
+  "themes": {
+    "aurora": "極光",
+    "sunset": "日落",
+    "ocean": "海洋",
+    "forest": "森林",
+    "midnight": "午夜",
+    "cherry": "櫻花"
+  },
+  "sound": {
+    "mechanical": "機械",
+    "8bit": "8位元",
+    "minimal": "極簡",
+    "nature": "自然"
+  }
+}

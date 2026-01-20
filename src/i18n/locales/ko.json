@@ -1,0 +1,111 @@
+{
+  "common": {
+    "appName": "GlassCalc Pro",
+    "loading": "로딩 중...",
+    "error": "오류가 발생했습니다",
+    "close": "닫기",
+    "save": "저장",
+    "cancel": "취소",
+    "confirm": "확인",
+    "reset": "초기화",
+    "copy": "복사",
+    "copied": "복사됨",
+    "settings": "설정",
+    "theme": "테마",
+    "language": "언어",
+    "sound": "소리",
+    "haptic": "진동"
+  },
+  "home": {
+    "title": "계산기를 선택하세요",
+    "subtitle": "다양한 계산기로 복잡한 계산을 쉽게",
+    "searchPlaceholder": "계산기 검색...",
+    "commandPalette": "Ctrl+K로 빠른 검색"
+  },
+  "calculators": {
+    "engineering": {
+      "name": "공학용 계산기",
+      "description": "삼각함수, 로그, 지수 연산"
+    },
+    "financial": {
+      "name": "금융 계산기",
+      "description": "대출, 복리, 투자 수익률"
+    },
+    "graph": {
+      "name": "그래프 계산기",
+      "description": "함수 그래프 시각화"
+    },
+    "unit": {
+      "name": "단위 변환기",
+      "description": "길이, 무게, 온도, 압력"
+    },
+    "programmer": {
+      "name": "프로그래머 계산기",
+      "description": "진법 변환, 비트 연산"
+    },
+    "statistics": {
+      "name": "통계 계산기",
+      "description": "평균, 표준편차, 회귀분석"
+    },
+    "datetime": {
+      "name": "날짜/시간 계산기",
+      "description": "D-Day, 나이, 타임존"
+    },
+    "matrix": {
+      "name": "행렬 계산기",
+      "description": "행렬 연산, 역행렬, 고유값"
+    },
+    "physics": {
+      "name": "물리 계산기",
+      "description": "운동, 힘, 에너지, 전기"
+    },
+    "chemistry": {
+      "name": "화학 계산기",
+      "description": "분자량, 몰, pH, 반응식"
+    },
+    "health": {
+      "name": "건강 계산기",
+      "description": "BMI, 기초대사량, 심박수"
+    },
+    "color": {
+      "name": "색상 계산기",
+      "description": "HEX, RGB, HSL 변환"
+    }
+  },
+  "calculator": {
+    "result": "결과",
+    "history": "기록",
+    "clearHistory": "기록 삭제",
+    "expression": "수식",
+    "variables": "변수",
+    "functions": "함수",
+    "constants": "상수",
+    "memory": "메모리",
+    "degree": "도",
+    "radian": "라디안",
+    "clear": "C",
+    "allClear": "AC",
+    "backspace": "←",
+    "equals": "=",
+    "error": {
+      "divisionByZero": "0으로 나눌 수 없습니다",
+      "invalidExpression": "잘못된 수식입니다",
+      "overflow": "숫자가 너무 큽니다",
+      "undefined": "정의되지 않은 결과"
+    }
+  },
+  "themes": {
+    "aurora": "오로라",
+    "sunset": "일몰",
+    "ocean": "바다",
+    "forest": "숲",
+    "midnight": "자정",
+    "cherry": "벚꽃"
+  },
+  "sound": {
+    "mechanical": "기계식",
+    "8bit": "8비트",
+    "minimal": "미니멀",
+    "nature": "자연"
+  }
+}
