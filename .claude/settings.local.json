@@ -27,7 +27,8 @@
       "Skill(frontend-design)",
       "Bash(npx playwright install:*)",
       "Bash(npx playwright test:*)",
-      "Bash(more:*)"
+      "Bash(more:*)",
+      "Skill(log-session)"
     ]
   },
   "statusLine": {

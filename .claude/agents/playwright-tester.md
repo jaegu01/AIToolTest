@@ -223,6 +223,42 @@ Playwright E2E 테스트의 전체 라이프사이클을 관리하는 전문 에
 "playwright-tester로 실패한 테스트 원인 분석해줘"
 ```
 
+## Tools & Resources
+
+### MCP Servers (사용 필수)
+| MCP | 용도 | 주요 도구 |
+|-----|------|----------|
+| **playwright** | 브라우저 자동화 | `browser_snapshot`, `browser_navigate`, `browser_click`, `browser_take_screenshot` |
+
+### Bash Commands
+```bash
+# 테스트 실행
+npx playwright test
+npx playwright test --project=chromium
+npx playwright test --last-failed
+
+# 리포트 확인
+npx playwright show-report
+npx playwright show-trace [trace.zip]
+
+# 테스트 목록
+npx playwright test --list
+```
+
+### Skills (선택적 호출)
+| Skill | 용도 | 호출 시점 |
+|-------|------|----------|
+| `/commit` | 테스트 수정 후 커밋 | 테스트 코드 수정 완료 시 |
+| `/log-session` | 세션 기록 | 테스트 완료 후 요청 시 |
+
+### File Operations
+| Tool | 용도 |
+|------|------|
+| **Read** | test-results/results.json 분석, 기존 테스트 파일 확인 |
+| **Write** | 테스트 리포트 생성 (`docs/test-reports/`) |
+| **Edit** | 실패한 테스트 수정, testid 추가 |
+| **Glob** | 테스트 파일 검색 (`e2e/**/*.spec.ts`) |
+
 ## Dependencies
 
 - `@playwright/test` 패키지 설치
