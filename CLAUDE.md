@@ -88,6 +88,33 @@ src/
 
 ---
 
+## Installed Plugins
+
+| Plugin | Purpose | 사용법 |
+|--------|---------|--------|
+| **frontend-design** | 고품질 프론트엔드 UI 생성 | UI 컴포넌트/페이지 요청 시 자동 활용 |
+| **github** | GitHub 연동 (이슈, PR, 저장소) | GitHub 관련 작업 요청 시 |
+| **code-review** | PR 코드 리뷰 | `/code-review` 또는 PR 리뷰 요청 시 |
+| **commit-commands** | 커밋/푸시/PR 자동화 | `/commit`, `/commit-push-pr`, `/clean_gone` |
+| **playwright** | 브라우저 테스트 자동화 | E2E 테스트, UI 검증 시 |
+
+### Plugin 상세
+
+#### frontend-design
+- Glassmorphism 등 세련된 디자인 코드 생성
+- 일반적인 AI 스타일을 벗어난 독창적인 UI 제작
+
+#### commit-commands
+- `/commit`: 변경사항 분석 후 커밋
+- `/commit-push-pr`: 커밋 + 푸시 + PR 생성 한번에
+- `/clean_gone`: 삭제된 원격 브랜치의 로컬 브랜치 정리
+
+#### code-review
+- PR 번호나 URL로 코드 리뷰 요청
+- 보안, 성능, 코드 품질 관점에서 분석
+
+---
+
 ## Custom Agents
 
 ### error-log-analyzer
@@ -323,7 +350,36 @@ Hooks는 특정 이벤트 발생 시 자동으로 실행되는 스크립트입�
 
 ---
 
-### 6. 유용한 명령어 모음
+### 6. Plugins (확장 기능)
+
+Plugins는 Claude Code의 기능을 확장하는 공식/커뮤니티 패키지입니다.
+
+#### 설치 방법
+```bash
+# 플러그인 설치
+/plugin
+
+# 대화형 메뉴에서 원하는 플러그인 선택
+# 설치 후 Claude Code 재시작 필요
+```
+
+#### 현재 설치된 Plugins
+| Plugin | 설명 |
+|--------|------|
+| `frontend-design` | 프로덕션급 프론트엔드 UI 생성 |
+| `github` | GitHub 이슈/PR/저장소 연동 |
+| `code-review` | PR 코드 리뷰 자동화 |
+| `commit-commands` | 커밋/푸시/PR 워크플로우 |
+| `playwright` | 브라우저 테스트 자동화 |
+
+#### 활용 팁
+- `frontend-design`: UI 요청 시 자동 활성화, Glassmorphism 스타일에 최적
+- `commit-commands`: `/commit` 대신 사용 가능, 더 많은 기능 제공
+- `playwright`: E2E 테스트 작성 및 실행에 유용
+
+---
+
+### 7. 유용한 명령어 모음
 
 | 명령어 | 설명 |
 |--------|------|
@@ -332,6 +388,7 @@ Hooks는 특정 이벤트 발생 시 자동으로 실행되는 스크립트입�
 | `/compact` | 컨텍스트 압축 (토큰 절약) |
 | `/clear` | 대화 초기화 |
 | `/model` | 모델 변경 |
+| `/plugin` | 플러그인 설치/관리 |
 
 ---
 
@@ -343,4 +400,4 @@ Hooks는 특정 이벤트 발생 시 자동으로 실행되는 스크립트입�
 
 ---
 
-*Last updated: 2025-01-20*
+*Last updated: 2025-01-20 (plugins added)*
